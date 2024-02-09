@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework</title>
+  </head>
+  <body>
+    <H1>Home work</H1>
+    <div>
+      <input class="styled" type="button" value="Избранное" />
+    </div>
+    <br />
+    <div>
+      <input type="color" id="head" name="head" value="#e66465" />
+      <label for="head">Head</label>
+      <input type="color" id="body" name="body" value="#f6b73c" />
+      <label for="body">Body</label>
+    </div>
+    <br />
+    <div>
+      <label for="start">Выберети дату:</label>
+      <input
+        type="date"
+        id="start"
+        name="trip-start"
+        value="2024-02-09"
+        min="2020-01-01"
+        max="2026-12-31"
+      />
+    </div>
+    <br />
+    <div class="controls">
+      <label for="id">User ID:</label>
+      <input type="text" id="id" name="id" />
+
+      <input type="reset" value="Перегрузить" />
+      <input type="submit" value="Submit" />
+    </div>
+    <br />
+    <div>
+      <label for="avatar">Загрузите файл</label>
+
+      <input
+        type="file"
+        id="avatar"
+        name="avatar"
+        accept="image/png, image/jpeg"
+      />
+    </div>
+    <br />
+    <div>
+      <input type="range" id="volume" name="volume" min="0" max="11" />
+      <label for="volume">Звук</label>
+      <input
+        type="range"
+        id="cowbell"
+        name="cowbell"
+        min="0"
+        max="100"
+        value="90"
+        step="10"
+      />
+      <label for="cowbell">Микрофон</label>
+    </div>
+    <br />
+    <div>
+      <label for="site-search">Поиск по сайту:</label>
+      <input type="search" id="site-search" name="q" />
+    </div>
+    <br />
+    <div>
+      <input type="submit" value="Послать запрос" />
+    </div>
+    <br />
+    <div>
+      <label for="appt">Выберите время для встречи:</label>
+
+      <input
+        type="time"
+        id="appt"
+        name="appt"
+        min="09:00"
+        max="18:00"
+        required
+      />
+
+      <small>Часы работы офиса: с 9:00 до 18:00</small>
+    </div>
+    <br>
+    <div>
+      <input id="html" type="checkbox">
+      <label for="html">Хочу изучать HTML</label>
+    </div>
+  </body>
+</html>
