@@ -1,10 +1,11 @@
 .inter-regular {
+  margin: 0 auto;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
   font-variation-settings: "slnt" 0;
-  width: 960px
+  width: 960px;
 }
 .Planet {
   font-size: 40px;
@@ -13,42 +14,43 @@
   text-align: center;
   margin: auto;
 }
-.t1{
-    text-align: left;
+.t1 {
+  text-align: left;
 }
-.t2{
-    text-align: center;
+.t2 {
+  text-align: center;
 }
-.t3{
-    text-align: right;
+.t3 {
+  text-align: right;
 }
-.t4{
-    text-align: end;
+.t4 {
+  text-align: end;
 }
-.t5{
-    text-align: start;
+.t5 {
+  text-align: start;
 }
-p{
-    font-size: 16px;
+p {
+  font-size: 16px;
 }
-h3{
-    font-size: 32px;
+h3 {
+  font-size: 32px;
 }
 table {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
-th, td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: center;
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
 }
-h3{
-    text-align: center;
+h3 {
+  text-align: center;
 }
-.ven{
-    text-align: left;
+.ven {
+  text-align: left;
 }
 .right {
-    text-align: right;
+  text-align: right;
 }
