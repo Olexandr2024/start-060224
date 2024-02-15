@@ -43,3 +43,12 @@ th, td {
     padding: 8px;
     text-align: center;
 }
+h3{
+    text-align: center;
+}
+.ven{
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
