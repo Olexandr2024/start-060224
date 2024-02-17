@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 250px 60px 250px;
+}
+.social-block {
+  display: flex;
+  justify-content: end;
+  padding-top: 8px;
+}
+.rad {
+  margin-right: 15px;
+}
+.rad1 {
+  border-radius: 50%;
+}
+.section-block {
+  width: 100%;
+  height: 360px;
+  background-color: #fac960;
+  padding-top: 70px;
+}
+.name-block {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+H1 {
+  font-size: 44px;
+  color: #8a6d2f;
+}
+.plac {
+  width: 570px;
+  height: 36px;
+  border: none;
+  font-size: 25px;
+  padding-left: 30px;
+  vertical-align: middle;
+}
+.but {
+  width: 220px;
+  height: 38px;
+  background-color: #a8863d;
+  color: #fff;
+  border: none;
+  font-size: 25px;
+  vertical-align: middle;
+}
+.unl {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 421px;
+  background-color: #f2f2f2;
+  padding-top: 50px;
+}
+.title {
+  font-size: 37px;
+  color: rgba(0, 0, 0, 0.54);
+  margin-bottom: 7px;
+}
+.title-lorem {
+  font-size: 23px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 60px;
+}
+.infinity {
+}
+.mobile {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 621px;
+  padding-top: 50px;
+}
+.ob {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 360px;
+  background-color: #fac960;
+  padding-top: 70px;
+}
+.foo {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 240px;
+  padding-top: 100px;
+}
+.btn {
+  background-color: #fff;
+  width: 61px;
+  color: #999999;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+.logo-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0px 0px 10px;
+}
+.social2 {
+  width: 21px;
+  height: 17px;
+  margin-right: 20px;
+}
