@@ -2,11 +2,13 @@
   width: 512px;
   height: 543px;
   margin-bottom: 0;
+.
 }
 .flag-p {
   margin-left: 450px;
   position: relative;
   bottom: 120px;
+  z-index: 1;
 }
 
 .flag {
@@ -20,7 +22,7 @@
   height: 271.5px;
   background-color: #ffd700;
   position: unset;
-  z-index: 1;
+
   overflow: hidden;
 }
 .glyph {
@@ -36,6 +38,6 @@
   margin-left: 900px;
   position: absolute;
   bottom: 0;
-  z-index: 1;
+ 
   overflow: hidden;
 }
