@@ -1,3 +1,7 @@
+body {
+
+}
+
 .dia {
   width: 512px;
   height: 543px;
@@ -30,11 +34,39 @@
   margin-top: 160px;
   position: absolute;
 }
-.collo {
+.posit {
   width: 512px;
   height: 512px;
+  margin-top: -240px;
+  margin-left: 890px;
+  /* z-index: 2; */
+  position: absolute;
+  border-top: solid blue;
+  border-bottom: solid blue;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.posit_2 {
+  width: 444px;
+  height: 444px;
+  margin-left: 30px;
+  margin-top: 30px;
+  background-color: #ffd700;
+  border-radius: 50%;
+}
+.collo {
+}
+.glyph2 {
+  width: 358px;
+  height: 203px;
+  margin-left: 46px;
+  margin-top: -30px;
+}
+
+/* .collo {
+  
   margin-left: 900px;
   position: absolute;
   bottom: 0;
   overflow: hidden;
-}
+} */
