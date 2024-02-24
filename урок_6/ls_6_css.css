@@ -132,22 +132,25 @@ body {
   left: 80px;
   right: 1636; */
   /* Rectangle 2 */
-position: absolute;
-width: 272px;
-height: 64px;
-left: 80px;
-right: 1376px;
-top: 1000px;
-bottom: 371px;
+  position: absolute;
+  width: 272px;
+  height: 64px;
+  left: 80px;
+  right: 1376px;
+  top: 1000px;
+  bottom: 371px;
 }
 .stream-button {
-  background-color: rgb(213, 13, 31); 
-  color: white; 
+  background-color: rgb(213, 13, 31);
+  color: white;
   padding: 10px 20px;
-  font-size: 16px;
-  border: none; 
+  font-size: 22px;
+  border: none;
   cursor: pointer;
-  border-radius: 5px; 
+  border-radius: 2px;
+  border: dashed 1px;
+  width: 272px;
+  height: 64px;
 }
 
 .stream-button:hover {
@@ -155,8 +158,127 @@ bottom: 371px;
 
   background: rgb(213, 13, 31);
 }
+.qw {
+  width: 291px;
+  height: 64px;
+}
 
 .play-icon {
-  margin-left: 5px; 
-  font-size: 20px; 
+  margin-left: 5px;
+  font-size: 20px;
+}
+.all-episodes-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  border: 3px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 271px;
+  height: 64px;
+}
+.icon2 {
+  position: absolute;
+  width: 291px;
+  height: 64px;
+  left: 402px;
+  right: 376px;
+  top: 1000px;
+}
+.all-episodes-button:hover {
+  border: 2px solid #007bff;
+}
+.texte-popul {
+  position: absolute;
+  /* width: 291px;
+  height: 64px; */
+  left: 80px;
+  right: 1376px;
+  top: 1100px;
+}
+.popul {
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 144.52%;
+  letter-spacing: 13.5%;
+  text-align: left;
+}
+.week {
+}
+.breaking {
+  position: absolute;
+  left: 80px;
+  right: 1476px;
+  top: 1100px;
+  width: 231px;
+  height: 310px;
+  left: 80px;
+  top: 1258px;
+}
+.rain {
+  position: absolute;
+  left: 80px;
+  right: 1476px;
+  top: 1100px;
+  width: 231px;
+  height: 310px;
+  left: 381px;
+  top: 1258px;
+}
+.life {
+  position: absolute;
+  left: 80px;
+  right: 1476px;
+  top: 1100px;
+  width: 231px;
+  height: 310px;
+  left: 681px;
+  top: 1258px;
+}
+.money {
+  position: absolute;
+  left: 80px;
+  right: 1476px;
+  top: 1100px;
+  width: 231px;
+  height: 310px;
+  left: 981px;
+  top: 1258px;
+}
+.squid {
+  position: absolute;
+  left: 80px;
+  right: 1476px;
+  top: 1100px;
+  width: 231px;
+  height: 310px;
+  left: 1280px;
+  top: 1258px;
+}
+.icon16 {
+  position: absolute;
+  width: 174px;
+  height: 66px;
+  /* left: 1554px; */
+  right: 0;
+  top: 1348px;
+  bottom: 103px;
+  box-sizing: border-box;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 141.52%;
+ 
+}
+.age-rating-icon {
+  width: 170px; /* Ширина иконки */
+  height: 66px; /* Высота иконки */
+  position: relative;
+  background: linear-gradient(to right, red 20%, gray 20%);
 }
