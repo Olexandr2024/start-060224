@@ -20,14 +20,17 @@ body {
   /* background-color: black; */
 }
 .home {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  background-image: url(./img/Ellipse\ 2.png)
 }
 .netflix {
   position: absolute;
+  /* align-items: flex-start */
+  
   width: 156px;
   height: 48px;
   top: 70px;
@@ -274,7 +277,6 @@ body {
   font-size: 24px;
   font-weight: 500;
   line-height: 141.52%;
- 
 }
 .age-rating-icon {
   width: 170px; /* Ширина иконки */
