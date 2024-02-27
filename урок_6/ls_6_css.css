@@ -279,8 +279,8 @@ body {
   line-height: 141.52%;
 }
 .age-rating-icon {
-  width: 170px; /* Ширина иконки */
-  height: 66px; /* Высота иконки */
+  width: 170px; 
+  height: 66px; 
   position: relative;
   background: linear-gradient(to right, red 20%, gray 20%);
 }
