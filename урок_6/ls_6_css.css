@@ -18,13 +18,20 @@ body {
 }
 .border {
   /* background-color: black; */
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .home {
-  /* position: fixed; */
+  position: fixed;
+  /* background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover; */
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  margin: 0;
   background-image: url(./img/Ellipse\ 2.png)
 }
 .netflix {
