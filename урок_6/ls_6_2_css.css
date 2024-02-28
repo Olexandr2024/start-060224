@@ -30,8 +30,7 @@ header {
   padding: 40px 0 118px 0;
   justify-content: space-between;
 }
-.logo,
-.user {
+.logo .user {
   display: flex;
   align-items: center;
 }
