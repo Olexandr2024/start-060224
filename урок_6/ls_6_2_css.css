@@ -235,3 +235,26 @@ header{
 .slider div>img{
   width: 100%;
 }
+.icon16 {
+  position: absolute;
+  width: 174px;
+  height: 66px;
+  /* left: 1554px; */
+  right: 0;
+  top: 948px;
+  bottom: 103px;
+  box-sizing: border-box;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 141.52%;}
+
+  .age-rating-icon {
+    width: 170px; 
+    height: 66px; 
+    position: relative;
+    background: linear-gradient(to right, red 20%, gray 20%);
+    padding-top: 15px;
+  }
