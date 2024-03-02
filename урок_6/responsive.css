@@ -38,4 +38,27 @@
         flex-direction: column;
         row-gap: 20px;
       }
+      .recomendation-buttons {
+        padding: 34px 0;
+        flex-direction: column;
+        row-gap: 20px;
+      }
+      .slider{
+        /* padding: 34px 0;
+        flex-direction: column-reverse;
+        row-gap: 20px; */,
+        padding-top: 20px
+        /* display: flex; */
+        flex-wrap: wrap;
+        /* width: 20%; */
+        /* margin-top: 20px; */
+        /* margin-bottom: 20px; */
+        /* width: 60% */
+        display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Создаем гибкую сетку с минимальной шириной элемента 200px */
+            grid-gap: 10px; /* Пространство между элементами */
+            width: 100%;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            grid-row-start: 2;
+      }
 }
