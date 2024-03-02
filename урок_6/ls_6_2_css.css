@@ -8,9 +8,9 @@
   font-weight: 500;
   font-style: normal;
 }
-body {
+body{
   margin: 0;
-  background-image: url("./img/Rectangle\ 1.png");
+  background-image: url('./img/Rectangle\ 1.png');
   background-color: black;
   background-position: top center;
   background-repeat: no-repeat;
@@ -19,32 +19,34 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings: "slnt" 0;
+  font-variation-settings:
+    "slnt" 0;
 }
-main {
-  width: 1614px;
+main{
+  width: 80%;
   margin: 0 auto;
 }
-header {
+header{
   display: flex;
   padding: 40px 0 118px 0;
   justify-content: space-between;
 }
-.logo .user {
+.header-logo,
+.header-user{
   display: flex;
   align-items: center;
 }
-.user {
+.header-user{
   column-gap: 45px;
 }
-.user .fa-magnifying-glass {
-  color: rgb(255, 255, 255);
+.header-user .fa-magnifying-glass{
+  color:rgb(255, 255, 255);
   font-size: 35px;
 }
-.logo {
+.header-logo{
   column-gap: 16px;
 }
-.date {
+.date{
   color: rgb(200, 200, 200);
   font-size: 24px;
   line-height: 28px;
@@ -53,9 +55,9 @@ header {
   position: relative;
   font-family: "Kyiv Type Titling";
   font-weight: 500;
-  /* border-left: 3px solid white; */
+ 
 }
-.date::before {
+.date::before{
   content: "";
   display: block;
   width: 3px;
@@ -64,10 +66,12 @@ header {
   position: absolute;
   left: 0;
 }
-.content {
-  width: 897px;
+.content{
+
+  width: 55%;
+
 }
-.types span {
+.types span{
   display: inline-block;
   padding: 0 23px;
   position: relative;
@@ -76,23 +80,24 @@ header {
   line-height: 39px;
   color: rgb(255, 255, 255);
 }
-.types span::before {
+.types span::before{
   content: "";
   display: block;
   width: 3px;
   height: 39px;
   background-color: white;
   position: absolute;
-  right: 0;
+  right:0;
   color: rgb(255, 255, 255);
+
 }
-.types span:first-child {
+.types span:first-child{
   padding-left: 0;
 }
-.types span:last-child::before {
+.types span:last-child::before{
   display: none;
 }
-.main {
+.main-title{
   color: rgb(255, 255, 255);
   font-size: 64px;
   font-weight: 800;
@@ -101,38 +106,38 @@ header {
   text-align: left;
   margin: 48px 0;
 }
-.info {
+.info{
   display: flex;
   color: rgb(255, 255, 255);
 }
-.item {
+.info-item{
   font-size: 29px;
   font-weight: 400;
   line-height: 1;
   position: relative;
   padding: 0 23px;
 }
-.item::after {
+.info-item::after{
   content: "";
   display: block;
   width: 3px;
   height: 20px;
   background-color: white;
   position: absolute;
-  right: 0;
+  right:0;
   top: 7px;
   color: rgb(255, 255, 255);
 }
-.item:first-child {
+.info-item:first-child{
   padding-left: 0;
 }
-.item:last-child::after {
+.info-item:last-child::after{
   display: none;
 }
-.secondary {
-  color: #a7a6a6;
+.secondary-info{
+  color: #A7A6A6;
 }
-.film-description {
+.film-description{
   color: rgb(167, 166, 166);
   font-family: Inter;
   font-size: 24px;
@@ -141,23 +146,23 @@ header {
   margin-top: 17px;
   margin-bottom: 35px;
 }
-.raiting {
+.raiting{
   font-size: 28px;
   display: flex;
   column-gap: 16px;
 }
-.raiting .fa-solid.fa-star {
+.raiting .fa-solid.fa-star{
   color: rgb(255, 234, 43);
 }
-.raiting .fa-regular.fa-star {
+.raiting .fa-regular.fa-star{
   color: rgb(255, 255, 255);
 }
-.action-btns {
+.action-btns{
   padding: 54px 0;
   display: flex;
   column-gap: 50px;
 }
-.btn-play {
+.btn-play{
   border-radius: 10px;
   background: rgb(213, 13, 31);
   padding: 16px 34px;
@@ -167,10 +172,10 @@ header {
   line-height: 141.52%;
   border: 3px solid rgb(213, 13, 31);
 }
-.btn-play:hover {
+.btn-play:hover{
   border: 3px solid rgb(253, 252, 252);
 }
-.all-info {
+.all-info{
   padding: 16px 58px;
   color: rgb(255, 255, 255);
   font-size: 22px;
@@ -180,30 +185,30 @@ header {
   border: 3px solid rgb(253, 252, 252);
   border-radius: 10px;
 }
-.all-info:hover {
+.all-info:hover{
   border: 3px solid rgb(213, 13, 31);
   color: rgb(213, 13, 31);
   background-color: rgb(253, 252, 252);
 }
-.recomendation {
+.recomendation{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-bottom: 32px;
 }
-.recomendation h3 {
+.recomendation h3{
   color: rgb(255, 255, 255);
   font-size: 22px;
   font-weight: 800;
   line-height: 144.52%;
   letter-spacing: 6.5px;
 }
-.recomendation-buttons {
+.recomendation-buttons{
   display: flex;
   column-gap: 27px;
   align-items: center;
 }
-.recomendation-buttons button {
+.recomendation-buttons button{
   width: 34px;
   height: 34px;
   border: 1.54px solid rgb(255, 255, 255);
@@ -215,38 +220,18 @@ header {
   color: white;
   font-size: 17px;
 }
-.recomendation-buttons button:hover {
+.recomendation-buttons button:hover{
   border: 1.54px solid rgb(167, 166, 166);
   color: rgb(167, 166, 166);
 }
-.slider {
+.slider{
   display: flex;
   justify-content: space-between;
   padding-bottom: 49px;
 }
-
-.icon16 {
-  position: absolute;
-  width: 174px;
-  height: 66px;
-  /* left: 1554px; */
-  right: 0;
-  top: 948px;
-  bottom: 103px;
-  box-sizing: border-box;
-  text-align: left;
-  color: rgb(255, 255, 255);
-  font-family: Inter;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 141.52%;
+.slider div{
+  width: 18%;
 }
-.age-rating-icon {
-  width: 174px;
-  height: 66px;
-  /* position: relative; */
-  background: linear-gradient(to right, red 20%, gray 20%);
-  padding-top: 15px;
-  padding-left: 74px;
-
+.slider div>img{
+  width: 100%;
 }
