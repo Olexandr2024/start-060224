@@ -1,0 +1,195 @@
+.body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "YTLC" 500;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  padding-left: 155px;
+  padding-right: 155px;
+  position: absolute;
+  background-color: white;
+}
+
+.header-text {
+  display: flex;
+  align-items: center;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 32px;
+  font: 900;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-links {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 459px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 19px;
+  font: 400;
+}
+.header-Category {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* /* padding-right: 159px; */
+  padding-left: 329px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 19px;
+  font: 400;
+}
+
+.header-links li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.search-icon {
+  margin-left: auto;
+  cursor: pointer;
+  /* padding-right: 155px; */
+  padding-left: 25px;
+}
+.home-d {
+  position: absolute;
+  padding-left: 610px;
+  margin-top: 40px;
+}
+.home-dot {
+  display: flex;
+  width: 8px;
+  height: 8px;
+  background-color: orange;
+  border-radius: 50%;
+  /* margin-bottom: 32px;  */
+}
+.otst {
+    
+  padding-left: 155px;
+  padding-top: 153px;
+  height:70%
+  /* height: 100%; */
+}
+.cont {
+  display: flex;
+  justify-content: space-between;
+}
+.foto {
+  height: 100%;
+  /* width: 450px;
+  height: 633px; */
+}
+.Work {
+  /* Work Space */
+  position: absolute;
+  padding-left: 585px;
+
+  color: rgb(242, 153, 74);
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.fa-plus {
+  display: flex;
+  /* position: absolute; */
+  font-size: 25px;
+  color: blue;
+}
+.H1 {
+  /* Modern Design work space */
+  position: absolute;
+  width: 653px;
+  height: 256px;
+
+  top: 30px;
+  bottom: 559px;
+  color: rgb(0, 0, 0);
+  font-family: "Nunito Sans";
+  font-size: 65px;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.yellow-line {
+  margin-top: 232px;
+  width: 230px;
+  height: 6px;
+  border-radius: 4px;
+  background: rgb(242, 153, 74);
+}
+.Lorem {
+  /* position: absolute; */
+  width: 421px;
+  /* height: 416px; */
+  /* left: 755px; */
+  margin-top: 20px;
+  color: rgb(79, 79, 79);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.fa-circle-play {
+  color: #3f9ab7;
+  margin-top: 35px;
+  font-size: 85px;
+}
+.video {
+  margin-left: 120px;
+  margin-top: -55px;
+  /* width: 118px;
+height: 22px; */
+  left: 801px;
+  right: 521px;
+  top: 721px;
+  bottom: 257px;
+  color: rgb(0, 0, 0);
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.end {
+  /* width: 1440px; */
+  margin-top: 51px;
+  height: 118px;
+  background-color: #3f9ab7;
+}
+.foto-small {
+  border-radius: 50%;
+  margin-left: 580px;
+  margin-right: -50px;
+}

@@ -1,0 +1,39 @@
+@media (max-width: 1023px) {
+    .foto {
+      max-width: 300px; 
+    }
+    .Work {
+        max-width: 1300px; 
+      }
+      
+      .H1 {
+        max-width: 1300px; 
+      }
+      
+      .yellow-line {
+        max-width: 1300px; 
+      }
+      
+      .Lorem {
+        max-width: 1300px; 
+      }
+      
+      .fa-circle-play {
+        max-width: 1300px; 
+      }
+      
+      .video {
+        max-width: 1300px; 
+      }
+      
+      .end {
+        max-width: 1300px; 
+      }
+      
+      .foto-small {
+        max-width: 1300px; 
+      }
+  }
+  
+
+ 
