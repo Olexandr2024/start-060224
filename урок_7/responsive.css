@@ -1,39 +1,141 @@
-@media (max-width: 1023px) {
-    .foto {
-      max-width: 300px; 
-    }
-    .Work {
-        max-width: 1300px; 
-      }
-      
-      .H1 {
-        max-width: 1300px; 
-      }
-      
-      .yellow-line {
-        max-width: 1300px; 
-      }
-      
-      .Lorem {
-        max-width: 1300px; 
-      }
-      
-      .fa-circle-play {
-        max-width: 1300px; 
-      }
-      
-      .video {
-        max-width: 1300px; 
-      }
-      
-      .end {
-        max-width: 1300px; 
-      }
-      
-      .foto-small {
-        max-width: 1300px; 
-      }
+@media (max-width: 1080px) {
+  .header-text {
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
   }
-  
+  .header-links {
+    display: flex;
+    padding-top: 15px;
+  }
 
- 
+  .home-d {
+    position: absolute;
+    padding-left: 30.125rem;
+    margin-top: 50px;
+  }
+  .header-Category {
+    flex-wrap: wrap;
+    margin-top: 25px;
+    padding-left: 9px;
+  }
+  .search-icon {
+    flex-wrap: wrap;
+    margin-top: 25px;
+  }
+  .Work {
+    padding-left: 355px;
+    padding-top: 0px;
+    height: 60%;
+  }
+  .Work {
+  }
+  .foto {
+    height: 70%;
+  }
+  .foto-small {
+    padding-top: 30px;
+    border-radius: 50%;
+    margin-left: 420px;
+    margin-right: -50px;
+  }
+  .client {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 625px;
+    margin-top: -35px;
+  }
+}
+@media (max-width: 600px) {
+  .header-text {
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .header-links {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 2px;
+    padding: -6px;
+    padding-left: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 19px;
+  }
+
+  .home-d {
+    position: absolute;
+    padding-left: 1.454rem;
+    margin-top: 50px;
+  }
+  .header-Category {
+    flex-wrap: wrap;
+    margin-top: 25px;
+    padding-left: 9px;
+  }
+  .search-icon {
+    flex-wrap: wrap;
+    margin-top: 25px;
+  }
+  .Work {
+    position: absolute;
+    color: rgb(242, 153, 74);
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-left: -348px;
+    margin-top: 380px;
+  }
+  .H1 {
+    width: 387px;
+    font-size: 39px;
+  }
+  .Lorem {
+    width: 349px;
+    font-size: 12px;
+  }
+  .fa-circle-play {
+    margin-top: 18px;
+    font-size: 46px;
+  }
+  .video {
+    font-size: 14px;
+    margin-left: 80px;
+    margin-top: -35px;
+  }
+
+  .foto {
+    height: 70%;
+  }
+  .foto-small {
+    padding-top: 30px;
+    border-radius: 50%;
+    margin-left: 420px;
+    margin-right: -50px;
+  }
+  .client {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 625px;
+    margin-top: -35px;
+  }
+  .end {
+    margin-top: 295px;
+    height: 118px;
+    background-color: #3f9ab7;
+  }
+  .foto-small {
+    margin-left: 184px;
+  }
+  .client {
+    padding-left: 397px;
+  }
+  .yellow-line {
+    margin-top: 177px;
+  }
+}
