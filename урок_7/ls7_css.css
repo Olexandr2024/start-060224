@@ -16,6 +16,14 @@
   font-weight: 400;
   font-style: italic;
 }
+:root {
+  --main-font-family: "Nunito Sans", sans-serif;
+  --main-font-weight: 400;
+  --secondary-font-family: "Roboto", sans-serif;
+  --main-color: black;
+  --secondary-color: rgb(242, 153, 74);
+  --third-color: rgb(63, 154, 183);
+}
 header {
   display: flex;
   align-items: center;
@@ -23,11 +31,12 @@ header {
   padding: 1.25rem;
   padding-left: 9.688rem;
   padding-right: 9.688rem;
-  position: absolute;
+
   background-color: white;
 }
-main{
-    width: 1614px;
+main {
+  width: 1614px;
+  margin: 0 auto;
 }
 
 .header-text {
@@ -48,45 +57,46 @@ main{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  padding-left: 28.688rem;
+  padding-left: 18.688rem;
   font-family: "Nunito Sans", sans-serif;
   font-size: 19px;
   font: 400;
 }
 .header-Category {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  /* /* padding-right: 159px; */
-  padding-left: 329px;
+  /* margin: 0;
+  padding: 0; */
+  padding-right: 48px;
+  padding-left: 279px;
   font-family: "Nunito Sans", sans-serif;
   font-size: 19px;
   font: 400;
 }
 
 .header-links li {
-  margin-right: 1.25rem;
+  margin-right: 3.25rem;
   cursor: pointer;
 }
 
 .search-icon {
-  margin-left: auto;
+  margin-left: 23px;
   cursor: pointer;
   /* padding-right: 155px; */
-  padding-left: 1.563rem;
+  /* padding-left: 1.563rem; */
+  margin-right: 92px;
 }
 .home-d {
   position: absolute;
-  padding-left: 38.125rem;
+  padding-left: 28.125rem;
   margin-top: 40px;
 }
 .home-dot {
   display: flex;
   width: 8px;
   height: 8px;
-  background-color: orange;
+  background-color: var(--secondary-color);
   border-radius: 50%;
   /* margin-bottom: 32px;  */
 }
@@ -98,7 +108,7 @@ main{
 }
 .cont {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .foto {
   height: 100%;
@@ -107,26 +117,40 @@ main{
 }
 .Work {
   /* Work Space */
-  position: absolute;
-  padding-left: 585px;
-
+  /* position: absolute; */
+  padding-left: 179px;
   color: rgb(242, 153, 74);
   font-family: "Nunito Sans", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  line-height: 120%;
+  line-height: 100%;
   letter-spacing: 1px;
   text-align: left;
+  /* padding-right: 8.5rem; */
+  border-right: 1px solid rgb(51, 51, 51);
+  height: 455px;
 }
+
 .fa-plus {
+  color: var(--third-color);
+  font-size: 11px;
+  margin-left: 306px;
+  /* visibility: hidden; */
+}
+.text-block h3:hover {
+  .fa-plus {
+    visibility: visible;
+  }
+}
+/* .fa-plus {
   display: flex;
-  /* position: absolute; */
+  position: absolute;
   font-size: 25px;
   color: blue;
-}
+} */
 .H1 {
   /* Modern Design work space */
-  position: absolute;
+  /* position: absolute; */
   width: 653px;
   height: 256px;
 
@@ -141,12 +165,14 @@ main{
   text-align: left;
 }
 .yellow-line {
-  margin-top: 232px;
+  /* position: relative; */
+  /* margin-top: 132px; */
   width: 230px;
   height: 6px;
   border-radius: 4px;
   background: rgb(242, 153, 74);
 }
+
 .vertical-line {
   border-left: 1px solid black; /* цвет и толщина линии */
   height: 400px; /* высота линии */
@@ -199,15 +225,79 @@ height: 22px; */
   background-color: #3f9ab7;
 }
 .foto-small {
-    padding-top: 30px;
+  padding-top: 30px;
   border-radius: 50%;
-  margin-left: 580px;
+  margin-left: 689px;
   margin-right: -50px;
 }
 .client {
   font-family: "Nunito Sans";
   font-weight: 400;
   font-size: 20px;
-  padding-left: 795px;
-  margin-top:  -35px;
+  padding-left: 891px;
+  margin-top: -35px;
+}
+/* .radius{
+  border-radius: 50% !important;
+} */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--third-color);
+  padding: 2rem 0;
+  margin-bottom: 2.8rem;
+  color: white;
+  font-family: var(--main-font-family);
+  margin-top: 61px;
+}
+.f-block {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-radius: 50%;
+}
+.f-block img {
+  margin-left: -20px;
+}
+.f-block p {
+  padding-left: 2rem;
+  font-weight: var(--main-font-weight);
+  font-size: 20px;
+}
+.f-block span {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.radius {
+  border-radius: 50% !important;
+}
+.s_media {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 505px;
+}
+.s_media a {
+  text-decoration: none;
+  color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  transition: all 0.3s ease;
+}
+
+.s_media a:hover {
+  color: white;
+  background-color: rgb(242, 153, 74);
+  border-radius: 100%;
+}
+.s_media_or{
+  color: white;
+  background-color: rgb(242, 153, 74);
+  border-radius: 100%;
 }
