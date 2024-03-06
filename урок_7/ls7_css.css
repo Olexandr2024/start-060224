@@ -138,8 +138,9 @@ main {
 .containr::before {
   content: ""; 
   position: absolute; 
+  
   top: 229px; 
-  bottom: 380px; 
+  bottom: 51px; 
   left: 50%; 
   margin-left: 592px;
   border-left: 2px solid black; 
