@@ -25,9 +25,11 @@
   --third-color: rgb(63, 154, 183);
 }
 header {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; */
+  justify-content: space-between; 
+  align-items: center;
   padding: 1.25rem;
   padding-left: 9.688rem;
   padding-right: 9.688rem;
@@ -58,16 +60,17 @@ main {
   margin: 0;
   padding: 0;
   padding-left: 18.688rem;
+  
   font-family: "Nunito Sans", sans-serif;
   font-size: 19px;
   font: 400;
 }
 .header-Category {
   display: flex;
-  /* justify-content: center; */
+  justify-content: end;
   list-style-type: none;
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
   padding-right: 48px;
   padding-left: 279px;
   font-family: "Nunito Sans", sans-serif;
@@ -81,16 +84,17 @@ main {
 }
 
 .search-icon {
-  margin-left: 23px;
-  cursor: pointer;
+  /* margin-left: 23px; */
+  /* cursor: pointer; */
   /* padding-right: 155px; */
   /* padding-left: 1.563rem; */
-  margin-right: 92px;
+  /* margin-right: 92px; */
+  justify-content: end;
 }
 .home-d {
   position: absolute;
   padding-left: 28.125rem;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 .home-dot {
   display: flex;
@@ -108,7 +112,7 @@ main {
 }
 .cont {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 .foto {
   height: 100%;
@@ -126,15 +130,27 @@ main {
   line-height: 100%;
   letter-spacing: 1px;
   text-align: left;
-  /* padding-right: 8.5rem; */
-  border-right: 1px solid rgb(51, 51, 51);
-  height: 455px;
+  padding-right: 8.5rem;
+  /* border-right: 1px solid rgb(51, 51, 51); */
+  /* height: 455px; */
+  
 }
+.containr::before {
+  content: ""; 
+  position: absolute; 
+  top: 229px; 
+  bottom: 380px; 
+  left: 50%; 
+  margin-left: 592px;
+  border-left: 2px solid black; 
+  transform: translateX(-50%);
+}
+
 
 .fa-plus {
   color: var(--third-color);
   font-size: 11px;
-  margin-left: 306px;
+  margin-left: 380px;
   /* visibility: hidden; */
 }
 .text-block h3:hover {
@@ -234,7 +250,7 @@ height: 22px; */
   font-family: "Nunito Sans";
   font-weight: 400;
   font-size: 20px;
-  padding-left: 891px;
+  padding-left: 291px;
   margin-top: -35px;
 }
 /* .radius{
@@ -278,7 +294,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 505px;
+  margin-left: 439px;
 }
 .s_media a {
   text-decoration: none;
