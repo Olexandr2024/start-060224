@@ -117,9 +117,9 @@ footer {
     content: ""; 
     position: absolute; 
     top: 229px; 
-    bottom: 89px; 
+    bottom: 390px; 
     left: 50%; 
-    margin-left: 433px;
+    margin-left: 407px;
     border-left: 2px solid black; 
     transform: translateX(-50%);
   }
