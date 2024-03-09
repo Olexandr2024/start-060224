@@ -6,6 +6,16 @@
   font-style: normal;
   font-variation-settings: "slnt" 0;
 }
+:root {
+  --main-font-family:  "Inter", sans-serif;
+  --main-font-weight: 400;
+ 
+  --background-color: rgba(0, 0, 0, 0.25);
+  --secondary-color: rgba(249, 203, 40, 1);
+  --third-color: white;
+  --background: rgba(241, 239, 254, 1);
+  --color: rgba(12, 13, 31, 0.5);
+}
 .container {
   width: 860px;
   margin: 0 auto;
@@ -37,48 +47,48 @@ div.photo_block img {
   height: 321px;
 }
 .text_img {
-  background-color: rgba(0, 0, 0, 0.25);
   display: inline-block;
   width: 191px;
   margin: 11px 8px;
   position: absolute;
   bottom: 0;
   font-size: 12px;
-  color: white;
   border-radius: 15px;
   font-family: "Inter", sans-serif;
+  color: var(--third-color);
+  background-color: var(--background-color);
 }
 .text_img h2 {
-  color: white;
   font-size: 16px;
+  color: var(--third-color);
 }
 .text_img h3 {
-  color: rgba(249, 203, 40, 1);
   font-size: 14px;
   margin: 4px 0 8px 0;
+  color: var(--secondary-color);
 }
 div.text_img div {
   padding: 8px;
 }
 .block {
-  background: rgba(241, 239, 254, 1);
   border-radius: 10px;
+  background: var(--background);
 }
 .padding {
   padding: 16px 24px;
-  
-font-size: 14px;
-font-weight: 400;
-line-height: 17px;
-letter-spacing: 0%;
-text-align: left;
-font-family: "Inter", sans-serif;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  font-family: "Inter", sans-serif;
 }
 .list_hor {
   list-style: none;
   font-size: 14px;
   font-weight: 400;
-  color: rgba(12, 13, 31, 0.5);
+  color: var(--color);
 }
 ul.list_hor li {
   display: inline-block;
