@@ -1,0 +1,111 @@
+.body {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.body {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.body {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.body {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+:root {
+  --main-text-color: #000;
+  --main-text-color-second: #fff;
+  --secondary-text-color: #f90;
+  --text-decoration-color: #ffe600;
+  --font-family: "Philosopher", sans-serif;
+  --secondary-section-bg: #f6fdee;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  min-height: 1080px;
+  margin: 0;
+  font-family: var(--font-family);
+}
+/* header */
+header {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./img/banner-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 141.9px;
+}
+/* header-pu */
+.header-pu {
+  display: flex;
+  justify-content: space-between;
+}
+.header-pu .logo {
+  color: var(--main-text-color-second);
+  font-size: 40px;
+  font-weight: 400;
+}
+.header-pu span {
+  color: var(--secondary-text-color);
+}
+
+.header-pu .header-button a {
+  color: var(--secondary-text-color);
+}
+.header-pu nav,
+.header-pu .header-button {
+  margin-top: 10px;
+}
+nav a {
+  color: var(--main-text-color-second);
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-right: 1.35rem;
+}
+.active {
+  color: var(--secondary-text-color);
+}
+/* header-main */
+.header-main {
+  margin: 320px 192px;
+  display: flex;
+  justify-content: space-between;
+  gap: 181px;
+}
+.header-main .header-text {
+  color: var(--main-text-color-second);
+  text-align: right;
+  font-size: 5rem;
+  font-weight: 400;
+  width: 27.3125rem;
+}
+.header-main .header-text span {
+  color: var(--secondary-text-color);
+}
+.header-main .text {
+  color: var(--main-text-color-second);
+  width: 646px;
+  font-size: 34px;
+  font-weight: 400;
+}
+.header-main .text span {
+  color: var(--secondary-text-color);
+  display: block;
+  text-align: right;
+}
