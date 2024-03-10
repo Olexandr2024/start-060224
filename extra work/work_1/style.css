@@ -109,3 +109,16 @@ nav a {
   display: block;
   text-align: right;
 }
+/* page-1 */
+section.page-1{
+    padding: 7.5rem 8.88rem;
+    background-color: var(--secondary-section-bg);
+}
+.page-1 .header-text{
+color: var(--main-text-color);
+font-size: 40px;
+font-weight: 700;
+}
+.page-1 .header-text span{
+    color: var(--secondary-text-color);
+}
