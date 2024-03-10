@@ -125,6 +125,7 @@ section.page-1 {
 .s-text{
 
     text-align: right;
+    margin-top: 35px;
 }
 .s-text a{
     color: var(--main-text-color);
@@ -215,4 +216,8 @@ section.page-1 {
     color: var(--main-text-color);
     font-size: 1.125rem;
     font-weight: 400;
+}
+.grid .s-text{
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
