@@ -1,0 +1,44 @@
+@media (min-width: 75rem) {
+    header nav .custom-container,
+    .page .custom-container,
+    .footer .custom-container {
+      padding: 0 0.9375rem;
+    }
+  }
+  @media (min-width: 87.5rem) {
+    header nav .custom-container,
+    .page .custom-container,
+    .footer .custom-container {
+      padding: 0 6.5625rem;
+    }
+  }
+  @media (max-width: 62rem) {
+    .nav-item:not(:last-child) {
+      margin-right: 1.25rem;
+    }
+  }
+  @media (max-width: 48rem) {
+    .main-block {
+      min-height: 25rem;
+    }
+  }
+  @media (max-width: 48rem) {
+    .page .cards-block {
+      padding: 2.5rem 0;
+    }
+  }
+  @media (max-width: 62rem) {
+    .cards-row {
+      justify-content: center !important;
+    }
+  }
+  @media (max-width: 62rem) {
+    .cards-body {
+      width: 50% !important;
+    }
+  }
+  @media (max-width: 36rem) {
+    .cards-body {
+      width: 100% !important;
+    }
+  }
