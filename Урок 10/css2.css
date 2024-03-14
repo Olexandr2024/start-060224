@@ -101,6 +101,7 @@ nav {
 
 .cards-img {
   position: relative;
+  transition: all 2s linear;
 }
 .cards-img img {
   width: 100%;
@@ -115,6 +116,13 @@ nav {
   bottom: 0;
   left: 0;
   z-index: 1;
+  transition: all 2s linear;
+}
+.cards-img:hover::before {
+  background-color: rgba(255, 0, 0, 0.5);
+  z-index: 1;
+  border-radius: 50%;
+  /* pointer-events: none */
 }
 .cards-img::after {
   content: "";
@@ -127,7 +135,12 @@ nav {
   left: 0;
   z-index: 2;
   border-radius: 50%;
+  transition: all 2s linear;
 }
+.cards-img:hover .cards-img::before {
+  font-size: 3.625rem;
+}
+
 .cards-title {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.625rem;
@@ -136,6 +149,11 @@ nav {
   margin-top: -5.6875rem;
   position: relative;
   z-index: 3;
+  transition: all 2s linear;
+}
+.cards-title:hover::before {
+  background-color: rgba(255, 0, 0, 0.5);
+
 }
 .my-button::after {
   content: "";
@@ -211,3 +229,4 @@ nav {
   right: 1.3125rem;
   z-index: 50;
 }
+
