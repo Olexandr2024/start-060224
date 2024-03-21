@@ -7,9 +7,9 @@
   font-variation-settings: "slnt" 0;
 }
 :root {
-  --main-font-family:  "Inter", sans-serif;
+  --main-font-family: "Inter", sans-serif;
   --main-font-weight: 400;
- 
+
   --background-color: rgba(0, 0, 0, 0.25);
   --secondary-color: rgba(249, 203, 40, 1);
   --third-color: white;
@@ -29,12 +29,12 @@ div.personal_block {
   clear: both;
   display: table;
 }
-div.about {
+/* div.about {
   vertical-align: top;
   display: inline-block;
   width: 646px;
   padding-left: 40px;
-}
+} */
 div.photo_block {
   position: relative;
   display: inline-block;
@@ -99,30 +99,28 @@ div.padding p {
   font-size: 14px;
   font-weight: 400;
 }
-div.about h2 {
+/* div.about h2 {
   font-size: 16px;
   font-weight: 600;
   padding-bottom: 8px;
   line-height: 19px;
   letter-spacing: 0%;
   text-align: left;
-  
-}
+} */
 
-div.bottom {
+/* div.bottom {
   padding-top: 32px;
-}
-div.als_block {
+} */
+/* div.als_block {
   margin-right: 58px;
-}
-div.als_block,
-div.can_block {
+} */
+/* div.als_block, */
+/* .div.can_block {
   width: 271.5px;
   display: inline-block;
   vertical-align: top;
-}
-
-ul.list_vert {
+} */
+.ul.list_vert {
   padding: 5px 0;
   padding-left: 30px;
   list-style: none;
@@ -155,3 +153,24 @@ div.can_block li::before {
   content: url("./img/cancel_icon.png");
   left: -20px;
 }
+.bottom {
+  grid-area: goal;
+}
+.about {
+  width: 71%;
+  display: grid;
+  grid-template-areas:
+    "top top"
+    "goal frust";
+}
+.can_block {
+  margin-left: 4.85rem;
+  grid-area: frust;
+}
+.about-user {
+  grid-area: top;
+}
+.als_block {
+  grid-area: goal;
+}
+
