@@ -598,7 +598,7 @@ footer .footer-down .footer-down-grid{
   grid-template-columns: 1fr 1fr;
   color: var(--main-text-color);
   font-size: 1.125rem;
-  font-weight: 701;
+  font-weight: 700;
 }
 footer .footer-down .footer-down-grid .footer-down-grid-it:nth-child(2){
   text-align: right;
